@@ -7,14 +7,70 @@
 	<meta name="keywords" content="estatuto, desamamento, porte de armas"> <!--palávras chaves-->
 	<meta name="robots" content="index, follow"> <!--serve para os motores de busca -->
 	<meta name="author" content="Allan G. Ramos / ruan / robson / namorada do robson"> <!--nomes dos autores da página-->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous"> <!--fonts awesome icons-->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous"> <!--icons-->
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
 </head>
 
 <body><center>
-<i class="fas fa-baseball-ball"></i>
-<h1>ESTATUDO DO DESARMAMENTO</h1></center>
+							<!--=========================CABEÇALHO==========================-->
+		<header class="cabecalho">
+		   	<button class="btn-menu"><i class="fas fa-bars fa-lg"></i></button> 
+		   	<a href="../index.html"><h1 class="logo">Estatuto do Desarmamento</h1></a>
+
+		   					<!--==========================MENU===============================-->
+
+		   	<nav class="menu">
+		   		<a href="" class="btn-close"><i class="fa fa-times"></i></a> <!--BOTÃO DE FECHAR-->
+		   			<ul>
+		   				<li><a href="../index.html">HOME</a></li>
+		   				<li><a href="#">Topico 1</a></li>
+		   				<li><a href="#">Topico 2</a></li>
+		   				<li><a href="html/Topico3.html">Porte de Armas</a></li>
+		   				<li><a href="#">Topico 4</a></li>
+		   				<li><a href="#">Topico 5</a></li>
+		   				<li><a href="#">Quem somos</a></li>
+		   			</ul>
+		   	</nav>
+
+		</header>
+		   					<!--==========================BANNER===============================-->
+
+		<div class="banner">
+			<div class="title">
+				<h2>ESTATUTO DO DESARMAMENTO</h2>
+				<H3>Lei criada em 2003 que visa o controle e regulamentação do porte  de armas no Brasil</H3>
+				
+			</div>
+		</div>
+		   					<!--===============================================================-->
+		<main class="servicos">
+				<article class="servico">
+					<a href="#""><img src="img/lei.jpg"></a>
+					<div class="inner">
+						<a href="#"> Estatuto do Desarmamento</a>
+						<h4>Tudo sobre a lei do desarmamento.</h4>
+						<p>Trata-se da Lei 10826 de 22 de dezembro de 2003, regulamentada pelo decreto 5123 de 1º de julho de 2004 e publicada no Diário Oficial da União no dia seguinte, que "dispõe sobre registro, posse e comercialização de armas de fogo e munição.</p>
+					</div>
+				</article>
+			</main>  aula 8. 
+			
+		   					<!--==========================JQUERRY===============================-->
+
+		<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  		crossorigin="anonymous"></script>
+
+  		<script>
+  			$(".btn-menu").click(function(){
+  				$(".menu").show();
+  			});
+
+  			$(".btn-close").click(function(){
+  				$(".menu").hide();
+  			});
+  		</script>
+
 
 </body>
-
+	
 </html>
