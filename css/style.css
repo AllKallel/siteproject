@@ -9,7 +9,7 @@
 			font-family: 'Lato', sans-serif;
 		}
 
-		body{background-color: #fff;
+		body{background-color: #636363;
 		}
 
 		a{text-decoration: none;
@@ -33,7 +33,7 @@
 			width: 56px;
 			height: 56px;
 			float: left;
-			background: url(../img/logo.png) center center/ 56px no-repeat;
+			background: url(../img/logo1.jpg) center center/ 56px no-repeat;
 			font-size: 0; 
 		}
 
@@ -45,7 +45,7 @@
 			color: #fff;
 			border-radius: 56px;
 			cursor: pointer;
-			background: linear-gradient(to right, #1C1C1C, #FF0000);
+			background: linear-gradient(to right, #000000, red);
 		}
 
 /*===================================MENU====================================*/
@@ -89,7 +89,7 @@
 			color: #FF0000
 		}
 
-	/*===================================BANNER==================================*/
+/*===================================BANNER==================================*/
 
 .banner{
 	width: 100%;
