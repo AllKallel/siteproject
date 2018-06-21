@@ -141,7 +141,7 @@
 
 .inner{
 	padding: 7%;
-	height: 300px;
+	height: 320px;
 }
 
 .inner a{
@@ -180,6 +180,7 @@
 }
 .newsletter form{
 	margin-top: 2%;
+	padding: 5%;
 }
 .newsletter input{
 	width: 100%;
@@ -243,9 +244,12 @@ para impressoras. Muito usado para dar uma versão d impressão do site.
 		  height: 100px;
 		  float: left;
 		  background: url(../img/est.png) center center/ 214px no-repeat;}
-    .btn-menu{
-			margin: 17px;}
-}
+
+	.btn-menu{
+			margin: 17px;
+		}
+ }
+
 /*////////////////////tablets/////////////////////////*/
 @media screen and (min-width: 768px){
 	.servico {
@@ -295,16 +299,22 @@ para impressoras. Muito usado para dar uma versão d impressão do site.
 		  background-color: #636363; 
 		  display: block!important; 
 		  position: static;
-		  margin-right: 5%}
+		  margin-right: 5%;}
 	.menu li{padding: 0; float: left;}
 	.menu li a{ color: #130400; font-size: 1em; padding: 15px}
 	.menu li a:hover{border: none; color: red	}
+	.servicos {width: 100%; padding: 0% 4%;}
+	.servico {width: 100%;}
+	.servico img{width: 70%; height: 400px; margin-left: 15%}
+	.newsletter form{margin-top: 0%; padding: 5%}
+	.inner p{
+	padding: % %;
+	height: 320px;
+	font-size:em;
+	font-weight:;}
+
 
 }
-
-
-
-
 
 
 
