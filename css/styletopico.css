@@ -141,7 +141,6 @@
 
 .inner{
 	padding: 7%;
-	height: 320px;
 }
 
 .inner a{
@@ -253,7 +252,7 @@ para impressoras. Muito usado para dar uma versão d impressão do site.
 /*////////////////////tablets/////////////////////////*/
 @media screen and (min-width: 768px){
 	.servico {
-	width: 49%;
+	width: 100%;
 	float: left;
 	margin-right: 2%;}
 
@@ -270,7 +269,7 @@ para impressoras. Muito usado para dar uma versão d impressão do site.
 
 /*////////////////////MEDIUM DEVICES - TABLETS E DESKTOPS /////////////////////////*/
 @media screen and (min-width: 960px){
-	.servico { width: 32%}
+	.servico { width: 100%}
 
 	.servico:nth-child(2){margin-right: 2%;} /* tira a margem de 2% do segudo elemento */
 	.servico:nth-child(3){margin-right: 0%;} 
@@ -305,15 +304,12 @@ para impressoras. Muito usado para dar uma versão d impressão do site.
 	.menu li a:hover{border: none; color: red	}
 	.servicos {width: 100%; padding: 0% 4%;}
 	.servico {width: 100%;}
-	.servico img{width: 70%; height: 400px; margin-left: 15%}
+	.servico img{width: 70%; height: 100%}
 	.newsletter form{margin-top: 0%; padding: 5%}
-	.inner p{
-	padding: % %;
-	height: 320px;
-	font-size:em;
-	font-weight:;}
-
-
+	.logo{margin-left: 15px;}
+	.inner p{margin-top: 2%; color: #130400; line-height: 1.5em;}
+	.inner b{ font-weight: 0.5px}
+	.title {margin: 0}
 }
 
 
