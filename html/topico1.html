@@ -1,14 +1,109 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-	<title>Estatuto do Desarmamento - topico 1</title>
+	<title>Estatuto do Desarmamento</title>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="site informativo sobre o estatuto do desarmamento no Brasil e no mundo"> <!--descrição do site-->
+	<meta name="keywords" content="estatuto, desamamento, porte de armas"> <!--palávras chaves-->
+	<meta name="robots" content="index, follow"> <!--serve para os motores de busca -->
+	<meta name="author" content="Allan G. Ramos /  Ruan Gabriel David de Sousa / Jackeline Alves Almeida de Jesus / Jackeline Alves Almeida de Jesus">  <!--nomes dos autores da página-->
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous"> <!--icons-->
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+	<link rel="icon" href="img/pistola.png">
 </head>
 
 <body>
- ainda nada feito
 
- up up up up up up up up up up 
+<!--=========================CABEÇALHO=============================-->
+		<header class="cabecalho">
+		   	<button class="btn-menu"><i class="fas fa-bars fa-lg"></i></button> 
+		   	<a href="index.html"><h1 class="logo">Estatuto do Desarmamento</h1></a>
+
+<!--==========================MENU=================================-->
+
+		   	<nav class="menu">
+		   		<a href="" class="btn-close"><i class="fa fa-times"></i></a> <!--BOTÃO DE FECHAR-->
+		   			<ul>
+		   				<li><a href="../index.html">HOME</a></li>
+		   				<li><a href="topico1.html">O Estatuto</a></li>
+		   				<li><a href="topico2.html">Antes Do Estatuto</a></li>
+		   				<li><a href="topico3.html">Porte De Armas</a></li>
+		   				<li><a href="topico4.html">Cultura Das Armas</a></li>
+		   				<li><a href="topico5.html">Curiosidades</a></li>
+		   				<li><a href="topico5.html">Quem Somos</a></li>
+		   			</ul>
+		   	</nav>
+
+		</header>
+
+<!--==========================BANNER===============================-->
+
+		<div class="banner">
+			<div class="title">
+				<h2>ESTATUTO DO DESARMAMENTO</h2>
+				<H3>Lei criada em 2003 que visa o controle e regulamentação do porte  de armas de fogo no Brasil</H3>
+				
+			</div>
+		</div>	
+
+<!--==========================TOPICO1==============================-->
+
+		<main class="topico">
+				<article class="topico">
+					<img src="../img/mlei.jpg" alt="ESTATUTO DO DESARMAMENTO">
+					<div class="inner">
+						<a href="html/topico1.html">O ESTATUTO</a>
+						<h4>Tudo sobre a lei do desarmamento.</h4>
+						<p>Trata-se da Lei 10826 de 22 de dezembro de 2003, regulamentada pelo decreto 5123 de 1º de julho de 2004 e publicada no Diário Oficial da União no dia seguinte, que "dispõe sobre registro, posse e comercialização de armas de fogo e munição.</p>
+					</div>
+				</article>
+
+<!--==========================NEWS LATTER==========================-->
+
+		<section class="newsletter">
+			<h2> Inscreva-se agora! </h2>
+			<h3> Receba novidades sobre o assunto 	</h3>
+
+			<form>
+				<input type="email" name="email" placeholder="Seu email">
+				<button>Cadastrar</button>
+			</form>
+
+		</section>
+
+<!--==========================RODAPÉ==============================-->
+
+				<footer class="rodape">
+					<div class="social-icons">
+						<a href="#"><i class="fab fa-facebook-square"></i></a>
+						<a href="#"><i class="fab fa-twitter-square"></i></a>
+						<a href="#"><i class="fab fa-google"></i></a>
+						<a href="#"><i class="fab fa-instagram"></i></a>
+						<a href="#"><i class="fa fa-envelope-square"></i></a>
+						<p class="copyrigth">
+							UNIPAC ADS - 2018. Todos os direitos reservados.
+						</p>
+					</div>
+				</footer>
+
+<!--==========================JQUERRY==============================-->
+
+		<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  		crossorigin="anonymous"></script>
+
+  		<script>
+  			$(".btn-menu").click(function(){
+  				$(".menu").show();
+  			});
+
+  			$(".btn-close").click(function(){
+  				$(".menu").hide();
+  			});
+  		</script>
+
+
 </body>
-
+	
 </html>

@@ -126,13 +126,20 @@
 	border-radius: 7px;
 	margin-bottom: 3%;
 }
-
+.topico {
+	width: 100%;
+	background-color: #636363;
+	text-align: left;
+	border-radius: 7px;
+	margin-bottom: 3%;
+}
 .servico img{
 	border-radius: 7px 7px 0 0; 
 }
 
 .inner{
 	padding: 7%;
+	height: 300px;
 }
 
 .inner a{
@@ -170,15 +177,17 @@
 	color: #fff;
 }
 .newsletter form{
-	margin-top: 2%
+	margin-top: 2%;
 }
 .newsletter input{
 	width: 100%;
 	background-color: #000000;
 	color: #fff;
 	border: 1px solid rgba(255,255,255,0.3);
-	padding: 5%;
+	padding-left: 5%;
 	border-radius: 5px;
+	text-align: center;
+
 }
 .newsletter button{
 	width: 100%;
@@ -225,11 +234,72 @@ Para monitores ou dispositivos com telas coloridas e resolução adequada.
 print
 para impressoras. Muito usado para dar uma versão d impressão do site. 
 */
+/*===================================MOBILE FIRST================================*/
+/*////////////small Devices - smartfones;/////////////*/
+@media screen and (min-width: 480px){
+	.logo{width: 100px;
+		  height: 100px;
+		  float: left;
+		  background: url(../img/logo2.padding) center center/ 56px no-repeat;}
+		  /* trabalhar em uma nova logo e tamanho */
+ }
 
-@media print {
+/*////////////////////tablets/////////////////////////*/
+@media screen and (min-width: 768px){
+	.servico {
+	width: 49%;
+	float: left;
+	margin-right: 2%;}
 
+	.servico:nth-child(2){margin-right: 0%;} /* tira a margem de 2% do segudo elemento */
+	.servico:nth-child(4){margin-right: 0%;} 
+	.servico:nth-child(6){margin-right: 0%;} 
+
+	.newsletter h2{font-size: 2em;}
+	.newsletter h3{font-size: 1.5em;}
+
+	.newsletter input{ width: 70%; padding: 2%; float: left; margin-right: 1%}
+	.newsletter button{ width: 29%; padding: 2%; float: right; margin-top: 0}
 }
 
+/*////////////////////MEDIUM DEVICES - TABLETS E DESKTOPS /////////////////////////*/
+@media screen and (min-width: 960px){
+	.servico { width: 32%}
+
+	.servico:nth-child(2){margin-right: 2%;} /* tira a margem de 2% do segudo elemento */
+	.servico:nth-child(3){margin-right: 0%;} 
+	.servico:nth-child(4){margin-right: 2%;} 
+	.servico:nth-child(6){margin-right: 0%;} 
+
+
+	.newsletter h2{font-size: 3em;}
+	.newsletter h3{font-size: 2em;}
+
+	.newsletter input{ width: 60%; float: none;}
+	.newsletter button{ width: 20%; float: none;}
+}
+
+/*////////////////////MEDIUM DEVICES - TABLETS E DESKTOPS /////////////////////////*/
+@media screen and (min-width: 1280px){
+	
+	.banner{background-image: url(../img/pistol.jpg);}
+
+	.btn-menu{display: none;}
+	.btn-close{display: none;}
+	.menu{width: auto; 
+		  height: 56px; 
+		  line-height: 100px; 
+		  float: right; 
+		  background-color: #636363; 
+		  display: block!important; 
+		  position: static;}
+	.menu li{padding: 0; float: left;}
+	.menu li a{ color: #130400; font-size: 1em; padding: 15px}
+	.menu li a:hover{border: none; color: red	}
+
+	}
+}
+}
 
 
 
